@@ -8,3 +8,4 @@ Exercises and notes while following [The Rust Programming Language](https://doc.
 - [01-03_hello_cargo](01-03_hello_cargo/README.md) — The same program, managed with `cargo`.
 - [02-02_guessing_game](02-02_guessing_game/README.md) — Reads and echoes back user input.
 - [02-03_guessing_game](02-03_guessing_game/README.md) — Adds a randomly generated secret number.
+- [02-04_guessing_game](02-04_guessing_game/README.md) — Compares the guess to the secret number.
