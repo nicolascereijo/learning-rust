@@ -70,5 +70,10 @@ fn main() {
     // if passed normally, so a typical bug there is making changes to a copy thinking it's the
     // original, when you actually needed a pointer to modify it.
 
+    // As mentioned earlier, 'read_line' puts whatever the user enters into the string we pass to
+    // it, but it also returns a 'Result' value. 'Result' is an enumeration, often called an enum,
+    // which is a type that can be in one of multiple possible states. We call each possible state a
+    // variant.
+
     println!("You guessed: {guess}");
 }
