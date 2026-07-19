@@ -1,0 +1,21 @@
+# Build artifacts.
+/target/
+**/target/
+
+# Zed.
+.zed/*
+!.zed/settings.json
+
+# OS junk.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Swap/backup files.
+*.swp
+*.swo
+*~
+
+# Env files, just in case.
+.env
+.env.local
